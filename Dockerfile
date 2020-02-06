@@ -12,5 +12,6 @@ RUN pip3 install --upgrade pip  && \
     pip3 install heralding && \
     rm -Rf /root/.cache/ && mkdir /heralding
 
+COPY session.py   /usr/lib/python3.7/site-packages/heralding/misc/session.py
 COPY heralding.yml /usr/lib/python3.7/site-packages/heralding/heralding.yml
 ENTRYPOINT cd /heralding && heralding

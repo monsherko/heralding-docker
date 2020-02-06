@@ -1,0 +1,2 @@
+
+*/2 * * * * root docker cp local:/heralding/log_session.json /root/
