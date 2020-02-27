@@ -1,5 +1,4 @@
 FROM alpine:3.10
-MAINTAINER Sher Khodzhahanov <monsherko@yahoo.com>
 
 RUN apk add --no-cache python3 \ 
                        python3-dev \ 
